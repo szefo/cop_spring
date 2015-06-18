@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e99d6eb-b0af-4f04-800f-f6f260f8c301" name="Default" comment="ok">
+    <list default="true" id="3e99d6eb-b0af-4f04-800f-f6f260f8c301" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/unnamed.patch" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Spring-91(1001).iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1171,7 +1173,7 @@
       <workItem from="1434446117265" duration="20093000" />
       <workItem from="1434522075896" duration="6285000" />
       <workItem from="1434539569126" duration="3271000" />
-      <workItem from="1434606785098" duration="5063000" />
+      <workItem from="1434606785098" duration="5369000" />
     </task>
     <task id="LOCAL-00001">
       <created>1434621886330</created>
@@ -1185,14 +1187,20 @@
       <option name="project" value="LOCAL" />
       <updated>1434621947482</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ok">
+      <created>1434625744910</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1434625744910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102380000" />
+    <option name="totallyTimeSpent" value="102686000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="24" width="1561" height="876" extended-state="7" />
+    <frame x="39" y="24" width="1561" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
