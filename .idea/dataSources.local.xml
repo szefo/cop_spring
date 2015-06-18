@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - spring_tutorial@localhost" uuid="1870a247-d097-4074-a1d1-6e7966d90aa4">
+      <secret-storage>master_key</secret-storage>
+      <user-name>szefo</user-name>
+      <schema-pattern>spring_tutorial.*</schema-pattern>
+    </data-source>
+  </component>
+</project>
