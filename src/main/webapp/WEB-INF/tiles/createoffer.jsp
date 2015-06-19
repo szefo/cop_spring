@@ -7,7 +7,7 @@
 <sf:form method="post" action="${pageContext.request.contextPath}/docreate" commandName="offer">
 
 
-    
+
     <sf:input type="hidden" name="id" path="id"/>
     <table class="formtable">
         <tr>
