@@ -29,7 +29,6 @@ public class User {
     @Size(min = 6, max = 60)
     private String name;
 
-
     public User() {
     }
 
