@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e99d6eb-b0af-4f04-800f-f6f260f8c301" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles/admin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles/admin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles/createoffer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles/createoffer.jsp" />
     </list>
     <ignored path="Spring-91(1001).iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +59,8 @@
       <file leaf-file-name="createoffer.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles/createoffer.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4568965">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.6810345">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -200,8 +200,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/caveofprogramming/spring/web/controllers/OffersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/caveofprogramming/spring/web/service/OffersService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles/createoffer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles/createoffer.jsp" />
       </list>
     </option>
   </component>
@@ -1178,7 +1178,7 @@
       <workItem from="1434446117265" duration="20093000" />
       <workItem from="1434522075896" duration="6285000" />
       <workItem from="1434539569126" duration="3271000" />
-      <workItem from="1434606785098" duration="8839000" />
+      <workItem from="1434606785098" duration="8859000" />
     </task>
     <task id="LOCAL-00001">
       <created>1434621886330</created>
@@ -1232,10 +1232,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106156000" />
+    <option name="totallyTimeSpent" value="106176000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="52" width="781" height="848" extended-state="5" />
+    <frame x="39" y="52" width="781" height="848" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1822,8 +1822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles/createoffer.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4568965">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.6810345">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>
