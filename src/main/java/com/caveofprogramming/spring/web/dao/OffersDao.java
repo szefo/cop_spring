@@ -8,6 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.sql.DataSource;
 import java.util.List;
 
+
 @Component("offersDao")
 public class OffersDao {
 

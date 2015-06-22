@@ -19,10 +19,11 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 @ActiveProfiles("dev")
+
 @ContextConfiguration(locations = {
         "file:src/main/webapp/WEB-INF/dao-context.xml",
         "file:src/main/webapp/WEB-INF/security-context.xml",
-        "file:src/test/java/com/caveofprogramming/spring/web/test/config/datasource.xml"})
+        "file:src/test/resources/datasource.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
 public class UserDaoTests {
 

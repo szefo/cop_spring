@@ -28,7 +28,7 @@
         <security:intercept-url pattern="/static/**" access="permitAll"/>
         <security:intercept-url pattern="/login" access="permitAll"/>
         <security:intercept-url pattern="/offers" access="permitAll"/>
-        <security:intercept-url pattern="/**" access="denyAll"/>
+        <security:intercept-url pattern="/WEB-INF/layouts" access="denyAll"/>
         <security:form-login login-page="/login" authentication-failure-url="/login?error=true"/>
         <security:logout logout-success-url="/loggedout"/>
         <security:access-denied-handler error-page="/denied"/>

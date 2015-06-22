@@ -1,5 +1,7 @@
 package com.caveofprogramming.spring.web.dao;
 
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
@@ -11,6 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.sql.DataSource;
 import java.util.List;
 
+@Transactional
 @Component("usersDao")
 public class UsersDao {
 
@@ -20,9 +23,16 @@ public class UsersDao {
     private PasswordEncoder passwordEncoder;
 
     @Autowired
+    private SessionFactory sessionFactory;
+
+    @Autowired
     public void setDataSource(DataSource jdbc) {
         this.jdbc = new NamedParameterJdbcTemplate(jdbc);
     }
+
+//    public Session session() {
+//        return sessionFactory.getCurrentSession();
+//    }
 
     @Transactional
     public boolean create(User user) {
